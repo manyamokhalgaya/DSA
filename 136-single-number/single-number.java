@@ -4,7 +4,6 @@ class Solution {
         for(int i=0;i<nums.length;i++){
             index=index^nums[i];
         }
-        
         return index;
     }
 }
