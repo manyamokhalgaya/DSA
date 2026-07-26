@@ -17,7 +17,6 @@ class Solution {
             fast=fast.next.next;
             slow=slow.next;
         }
-
         ListNode prev=null;
         while(slow!=null){
             ListNode temp=slow.next;
@@ -32,11 +31,11 @@ class Solution {
             if(first.val!=second.val){
                 return false;
             }
-
-            first =first.next;
+            first=first.next;
             second=second.next;
-        }
 
+        }
         return true;
     }
+
 }
